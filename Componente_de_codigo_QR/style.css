@@ -75,9 +75,7 @@ main{
 }
 
 .attribution a {
-    text-decoration: none; 
-    &:hover{
-        text-decoration: underline;
+    color: blue;
     }
 }
 
