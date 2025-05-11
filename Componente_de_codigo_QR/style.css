@@ -34,7 +34,7 @@ main{
     flex-flow: column;
     padding: 1em;
     background-color: white;
-    max-width: 350px;
+    max-width: 300px;
     border-radius: 15px;
     margin: auto 0;
 
@@ -51,16 +51,20 @@ main{
 .title{
     margin: .7em 0;
     color: var(--color-3);
-    text-indent: 1em;
+    text-indent: .5em;
     font-weight: 700;
+    letter-spacing: .4px;
+    font-size: 1.3em;
 }
 
 .text{
     margin-bottom: .7em;
     color: var(--color-2);
-    text-indent: 1em;
+    text-indent: .5em;
     font-weight: 400;
     font-size: 15px;
+    letter-spacing: .4px;
+    line-height: 1.4;
 }
 
 .attribution {
