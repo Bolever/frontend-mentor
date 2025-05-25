@@ -1,0 +1,129 @@
+    @charset 'UTF-8';
+
+    @font-face {
+        font-family:'Inter', sans-serif;
+        src: url(../assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+        font-weight: 100 900;
+        font-style: normal;
+    }
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+    }
+
+    :root{
+        --color-green: hsl(75, 94%, 57%);
+        --color-white: hsl(0, 0%, 100%);
+        --color-gray700: hsl(0, 0%, 20%);
+        --color-gray800: hsl(0, 0%, 12%);
+        --color-gray900: hsl(0, 0%, 8%);
+
+        --font-padrao: 'Inter', sans-serif;
+    }
+
+    html,
+    body{
+        min-height: 100vh;
+    }
+
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+        background-color: var(--color-gray900);
+        font-family: var(--font-padrao)
+    }
+
+    .card{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--color-gray800);
+        padding: 2em;
+        border-radius: 10px;
+        width: 350px;
+    }
+
+    .avatar{
+        width: 30%;
+        border-radius: 50%;
+        margin-bottom: 1.7em;
+    
+    }
+
+    .title{
+        color: var(--color-white);
+        font-weight: 400;
+        padding-bottom: .3em;
+    }
+
+    .address{
+        color: var(--color-green);
+        font-size: 14px;
+        font-style: normal;
+        font-weight: bold;
+        padding-bottom: 1.5em;    
+    }
+
+    .text {
+        color: rgb(184, 182, 182);
+        font-size: 14px;
+        margin-bottom: 1.5em;
+    }
+
+    .menu{
+        width: 100%;
+    }
+
+    .menu ul{
+        display: inline-block;
+        width: 100%;
+        list-style-type: none;
+    
+    }
+
+    .menu li{
+    background-color: var(--color-gray700);
+    margin-bottom: 1em; 
+    border-radius: 10px;
+    text-align: center;
+
+    }
+
+    .menu a{
+        display: inline-block;
+        padding: .8em;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: bold;
+        color: var(--color-white);
+        width: 100%;
+        border-radius: 10px;
+        transition: .3s;
+    }
+
+    .menu a:hover ,
+    .menu a:focus{
+        background-color: var(--color-green);
+        color: black;
+        
+    }
+    .menu a:focus{
+        outline: 2px solid white;
+        outline-offset: 2px;
+        box-shadow: 0px 0px 10px white;
+    }
+
+    .attribution{
+        padding-top: 2em;
+        color: var(--color-white);
+        font-size: 11px; text-align: center;
+    }
+    .attribution a{
+        color: hsl(228, 45%, 44%);
+    }
