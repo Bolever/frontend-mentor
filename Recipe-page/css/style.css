@@ -19,6 +19,7 @@
     --color-marrom800: hsl(14, 45%, 36%);
     --color-Rosa800: hsl(332, 51%, 32%);
     --color-Rosa50: hsl(330, 100%, 98%);
+    
 
     --font-body: 'Outfit', sans-serif ;
     --font-title: 'Young Serif',sans-serif;
@@ -150,7 +151,7 @@ h3{
         flex-flow: column nowrap;
         justify-content: center;
         align-items: center;
-        background-color: var(--color-Rosa50);
+        background-color: var(--color-stone100);
     }
 
     .main{
