@@ -36,7 +36,7 @@ html,
 body{
     min-height: 100vh;
     font-family:var(--font-body);
-    font-size: 16px;
+    font-size: 1em;
 }
 
 h1,
@@ -143,7 +143,7 @@ h3{
     border-bottom: none;
 }
 
-@media screen and (min-width:600px){
+@media screen and (min-width:37.5em){
     body{
         min-height: 100vh;
         display: flex;
